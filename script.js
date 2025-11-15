@@ -11,3 +11,23 @@ function nextScreen(nextId) {
     }
 }
 
+const game = document.getElementById('game');
+//def music var here in the future!!!!!!!!!
+const ScoreEl = document.getElementById('score');
+const messageEl = document.getElementById('message');
+
+let notes = [];
+let hits = 0;
+let misses = 0;
+const totalNotes = 12;
+const lanes = ['←', '↑', '↓', '→'];
+
+const keyToLane = {
+    'ArrowLeft': 0, 'a': 0,
+    'ArrowUp': 1, 'a': 1,
+    'ArrowDown': 2, 'a': 2,
+    'ArrowRight': 3, 'a': 3,
+};
+
+const hitZone = 100;
+const speed = 3;
