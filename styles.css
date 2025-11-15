@@ -1,5 +1,4 @@
-
-.start-screen {
+#start-screen {
     background-color: transparent;
     background-image: url("images/start.png");
     background-size: cover;
@@ -15,11 +14,13 @@
     background: rgba(0,0,0,0.5);
     color:white;
     padding: 20px;
-    box-sizing: border-box;
-    font-family: sans-serif;
+    box-sizing: border-box;    font-family: sans-serif;
     border-top: 2px solid #fff;
 }
 
+#title {
+    
+}
 #game {
     position: relative;
     width: 400px;
