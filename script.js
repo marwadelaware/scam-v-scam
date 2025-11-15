@@ -10,3 +10,4 @@ function nextScreen(nextId) {
         nextScreen.style.display ='block';
     }
 }
+
