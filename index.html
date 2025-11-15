@@ -9,12 +9,12 @@
 <body>
     <div id="start-screen" class="screen">
         <h1>Scam VS. Scam</h1>
-        <button id="goScreen1">Play</button>
+        <button onclick="nextScreen('screen1')">Play</button>
     </div>
-    <div id="screen1" class="screen">
+    <div id="screen1" class="screen" style="display: none;">
         <div id="dialogue-box">
             <p id="dialogue-text">Your friend sent you an email!</p>
-            <button id="goSceen2">Open it!</button>
+            <button onclick="nextScreen('screen3')">Open it!</button>
 
         </div>
     </div>
