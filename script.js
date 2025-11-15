@@ -3,7 +3,7 @@ const screen2 = document.getElementById('screen2');
 const startScreen = document.getElementById('start-screen'); // Added for completeness
 const rhythmGameScreen = document.getElementById('rhythm-game'); // Added for reference if needed
 
-// Comment out music if not using audio; otherwise, uncomment HTML <audio> and add src="your_music.mp3"
+// comment out music if not using audio; otherwise, uncomment HTML <audio> and add src="your_music.mp3"
 //const music = document.getElementById('music');
 
 const game = document.getElementById('game');

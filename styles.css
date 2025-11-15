@@ -1,3 +1,8 @@
+
+body {
+    background-color: transparent;
+    background-image: url()
+}
 #dialogue-box {
     position: absolute;
     bottom: 0;
@@ -9,4 +14,24 @@
     box-sizing: border-box;
     font-family: sans-serif;
     border-top: 2px solid #fff;
+}
+
+#game {
+    position: relative;
+    width: 400px;
+    height:600px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: #222;
+}
+
+.lane-indicator {
+
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
