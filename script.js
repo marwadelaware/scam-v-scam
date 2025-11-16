@@ -10,6 +10,18 @@ const game = document.getElementById('game');
 const scoreEl = document.getElementById('score');
 const messageEl = document.getElementById('message');
 
+const popUp1 = document.getElementById("popUp1");
+const popUp2 = document.getElementById("popUp2");
+const popUp3 = document.getElementById("popUp3");
+const popUp4 = document.getElementById("popUp4");
+const popUp5 = document.getElementById("popUp5");
+
+const close1 = document.getElementById("close1");
+const close2 = document.getElementById("close2");
+const close3 = document.getElementById("close3");
+const close4 = document.getElementById("close4");
+const close5 = document.getElementById("close5");
+
 let notes = [];
 let hits = 0;
 let misses = 0;
@@ -41,6 +53,26 @@ function nextScreen(nextId) {
         startGame();
     }
 }
+
+function openPopUp(popUpElement) {
+    popUpElement.style.display = 'flex';
+}
+
+function closePopUp(popUpElement) {
+    popUpElement.style.display = 'none';
+}
+
+closePopUp1Btn.addEventListener('click', () => {
+    closepopUp(popUp1);
+    openPopUp(popUp2);
+});
+
+closePopUp1Btn.addEventListener('click', () => {
+    closepopUp(popUp1);
+    openPopUp(popUp2);
+});
+
+
 
 function createNote() {
     const lane = Math.floor(Math.random() * 4);
