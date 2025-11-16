@@ -62,24 +62,29 @@ function closePopUp(popUpElement) {
     popUpElement.style.display = 'none';
 }
 
-closePopUp1Btn.addEventListener('click', () => {
-    closepopUp(popUp1);
+close1.addEventListener('click', () => {
+    closePopUp(popUp1);
     openPopUp(popUp2);
 });
 
-closePopUp2Btn.addEventListener('click', () => {
-    closepopUp(popUp2);
+close2.addEventListener('click', () => {
+    closePopUp(popUp2);
     openPopUp(popUp3);
 });
 
-closePopUp3Btn.addEventListener('click', () => {
-    closepopUp(popUp3);
+close3.addEventListener('click', () => {
+    closePopUp(popUp3);
     openPopUp(popUp4);
 });
 
-closePopUp4Btn.addEventListener('click', () => {
-    closepopUp(popUp4);
+close4.addEventListener('click', () => {
+    closePopUp(popUp4);
     openPopUp(popUp5);
+});
+
+close5.addEventListener('click', () => {
+    closePopUp(popUp5);
+    startGame();
 });
 
 
