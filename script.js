@@ -67,9 +67,19 @@ closePopUp1Btn.addEventListener('click', () => {
     openPopUp(popUp2);
 });
 
-closePopUp1Btn.addEventListener('click', () => {
-    closepopUp(popUp1);
-    openPopUp(popUp2);
+closePopUp2Btn.addEventListener('click', () => {
+    closepopUp(popUp2);
+    openPopUp(popUp3);
+});
+
+closePopUp3Btn.addEventListener('click', () => {
+    closepopUp(popUp3);
+    openPopUp(popUp4);
+});
+
+closePopUp4Btn.addEventListener('click', () => {
+    closepopUp(popUp4);
+    openPopUp(popUp5);
 });
 
 
