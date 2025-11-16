@@ -62,12 +62,12 @@
     background-position: center;
 }
 
-.container{
+#container1, #container2 {
     width: 100%;
     height: 100vh;
 }
 
-#modelBox{
+#popUp1, #popUp2 {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -78,6 +78,11 @@
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 5px 10px 5px rgba(64, 66, 67, 0.367);
+}
+
+#popUp2 {
+    top: 25%;
+    left: 75%;
 }
 
 .offer-text{
@@ -99,7 +104,7 @@
     margin-bottom: 20px;
 }
 
-.close {
+#close1, #close2 {
     border: 0;
     outline: 0;
     cursor: pointer;
